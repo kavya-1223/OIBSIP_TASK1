@@ -1,0 +1,127 @@
+.bg-img1 {
+
+  background-image: url("https://cacheconsultants.com/wp-content/uploads/2019/04/light-bg_NCP.jpg");
+
+  min-height: 450px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.right{
+  position: absolute;
+  padding-top:50px;
+  padding-bottom:50px;
+} 
+
+.bg-img {
+
+  background-image: url("bg2.jpeg");
+
+  min-height: 450px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  margin: 20px;
+  width: 300px;
+  padding: 16px;
+  background-color: Lightcyan;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-image:url("bg1.png");
+	padding:65px;
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+      
+}
+
+nav a {
+	color:#800080;
+	text-decoration: underline;
+      padding:20px;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+
+h2 {
+	margin-bottom: 10px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+form {
+	max-width: 500px;
+	margin: 0;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+      
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="email"], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+      width: 50%;
+      padding: 10px 20px;
+      margin: 30px 0;
+}
